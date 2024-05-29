@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando o Universo</title>
+    <!-- Adicione o link para o arquivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <header>
+     <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/index.html">Início</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Astronomia">Sobre</a></li>
+            <li><a href="https://br.freepik.com/fotos/astronomia">Galeria</a></li>
+            <li><a href="https://www.cnnbrasil.com.br/tudo-sobre/astronomia/">Notícias</a></li>
+           
+        </ul>
+        </nav>
+    </nav>
+</header> 
+
+    <!-- Seção de Destaque -->
+    <section id="inicio">
+        <div class="banner">
+            <h1>Explorando o Universo</h1>
+            <p>Astronomia é a ciência que estuda os corpos celestes. </p>
+            <a href="https://pt.wikipedia.org/wiki/Astronomia" class="saiba-mais">Saiba Mais</a>
+        </div>
+    </section>
+ 
+    <!-- Seção de Notícias -->
+    <section id="noticias">
+        <h2>Últimas Notícias</h2>
+        <div class="noticias-container">
+            <!-- Notícia 1 -->
+            <div class="noticia">
+                <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/05/galaxia.jpg?w=1220&h=674&crop=1" alt="Notícia 1">
+                <h3>Universo e matéria escura</h3>
+                <p>O que aconteceria com o Universo se a matéria escura sumisse?</p>
+                <a href="#">Leia Mais</a>
+            </div>
+            <!-- Notícia 2 -->
+            <div class="noticia">
+                <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/05/gliese-12b.jpg?w=1220&h=674&crop=1" alt="Notícia 2">
+                <h3>Exoplaneta habitável</h3>
+                <p>É potencialmente habitável com temperatura da Terra é detectado</p>
+                <a href="https://www.cnnbrasil.com.br/tecnologia/exoplaneta-potencialmente-habitavel-com-temperatura-da-terra-e-detectado/">Leia Mais</a>
+            </div>
+            <!-- Notícia 3 -->
+            <div class="noticia">
+                <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/05/imagem-euclid-5.jpg?w=732&h=412&crop=1" alt="Notícia 3">
+                <h3>Mais de 50 mil galáxias</h3>
+                <p>Nova imagem do telescópio Euclid revela mais de 50 mil galáxias; veja</p>
+                <a href="https://www.cnnbrasil.com.br/tecnologia/nova-imagem-do-telescopio-euclid-revela-mais-de-50-mil-galaxias-veja/">Leia Mais</a>
+            </div>
+            <!-- Notícia 4 -->
+            <div class="noticia">
+                <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/05/campo-magnetico-do-Sol-e1716551159570.jpg?w=1220&h=674&crop=1" alt="Notícia 4">
+                <h3>Campo magnético do sol</h3>
+                <p>Cientistas dizem ter encontrado origem do campo magnético do Sol</p>
+                <a href="https://www.cnnbrasil.com.br/tecnologia/cientistas-dizem-ter-encontrado-origem-do-campo-magnetico-do-sol/">Leia Mais</a>
+            </div>
+            <!-- Notícia 5 -->
+            <div class="noticia">
+                <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/05/mao-fantasmagorica.jpg?w=1220&h=674&crop=1" alt="Notícia 5">
+                <h3>“Mão fantasmagórica”</h3>
+                <p>Na Via Láctea aparece em nova imagem de telescópio</p>
+                <a href="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/05/mao-fantasmagorica.jpg?w=1220&h=674&crop=1">Leia Mais</a>
+            </div>
+        </div>
+        <br>
+        <br>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+     
+        <p>Desenvolvido por: Ana Carolina Souza Barros</p>
+    </footer>
+
+<!-- Código do VLibras -->
+<!-- Início do código relacionado ao plugin VLibras -->
+<div vw class="enabled">
+    <!-- Esta div possui o atributo customizado 'vw' e a classe 'enabled', que são usados pelo plugin VLibras para identificar e estilizar o contêiner principal do widget. -->
+    <div vw-access-button class="active"></div>
+    <!-- Esta div representa o botão de acesso ao VLibras. Tem um atributo customizado 'vw-access-button' e a classe 'active', indicando que o botão está ativo e visível. -->
+    <div vw-plugin-wrapper>
+        <!-- Esta div atua como um contêiner para o plugin VLibras. O atributo 'vw-plugin-wrapper' é utilizado para o plugin identificar onde deve ser inserido seu conteúdo. -->
+        <div class="vw-plugin-top-wrapper"></div>
+        <!-- Esta div interna é utilizada para posicionar elementos ou funcionalidades adicionais do plugin VLibras na parte superior do widget. -->
+    </div>
+</div>
+<!-- Inclusão do script do plugin VLibras -->
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<!-- Este script carrega o arquivo JavaScript do plugin VLibras diretamente do servidor do VLibras. -->
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+    // Este script inicializa o widget VLibras. A função 'VLibras.Widget' é chamada com a URL base do app VLibras, configurando o widget no site.
+</script>
+
+
+</body>
+</html>
